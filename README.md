@@ -34,7 +34,7 @@ rosrun usb_cam usb_cam_node _video_device:=/dev/video4
 rosrun image_view image_view image:=/usb_cam/image_raw
 ```
 # まとめ
-私の環境では上記のコマンドをターミナルで打ち込むことによりusbカメラを使用できた．
+私の環境では上記のコマンドをターミナルに打ち込むことでusbカメラを使用できた．
 # 参考文献
 * http://ishi.main.jp/ros/ros_uvccam.html
 * https://ma38su.hatenablog.com/entry/2021/06/23/121926
